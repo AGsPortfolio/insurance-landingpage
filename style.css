@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: #fafafa;
+  font-family: "Karla", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "DM Serif Display", serif;
+}
+
+.Humanizing {
+  background-color: #2d2640;
+  color: #fafafa;
+  display: grid;
+  grid-template-rows: 451px 451px;
+  text-align: center;
+}
+.Humanizing h1 {
+  margin: 2% 8%;
+  font-size: 275%;
+}
+.Humanizing p {
+  line-height: 25px;
+  margin: 0% 8%;
+}
+
+/*# sourceMappingURL=style.css.map */

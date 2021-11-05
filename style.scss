@@ -1,0 +1,35 @@
+// Colors
+$primary-dark-violet: hsl(256, 26%, 20%);
+$primary-grayish-blue: hsl(216, 30%, 68%);
+$neutral-very-dark-violet: hsl(270, 9%, 17%);
+$neutral-dark-grayish-violet: hsl(273, 4%, 51%);
+$neutral-very-light-gray: hsl(0, 0%, 98%);
+
+body {
+    margin: 0;
+    background-color: $neutral-very-light-gray;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.Humanizing {
+    background-color: $primary-dark-violet;
+    color: $neutral-very-light-gray;
+    display: grid;
+    grid-template-rows: 451px 451px;
+    // padding-bottom: 60%;
+    text-align: center;
+
+    h1 {
+        margin: 2% 8%;
+        font-size: 275%;
+    }
+
+    p {
+        line-height: 25px;
+        margin: 0% 8%;
+    }
+}
