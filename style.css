@@ -9,19 +9,79 @@ h1, h2, h3 {
 }
 
 .Humanizing {
+  display: grid;
+  grid-template-rows: 451px 340px;
   background-color: #2d2640;
   color: #fafafa;
-  display: grid;
-  grid-template-rows: 451px 451px;
   text-align: center;
 }
-.Humanizing h1 {
-  margin: 2% 8%;
-  font-size: 275%;
+.Humanizing #people {
+  width: 100%;
+  height: 100%;
 }
-.Humanizing p {
+.Humanizing .Humanizing-text {
+  background-image: url(/images/bg-pattern-intro-left-mobile.svg);
+  background-repeat: no-repeat;
+}
+.Humanizing .Humanizing-text h1 {
+  margin: 22% 8% 5%;
+  font-size: 250%;
+}
+.Humanizing .Humanizing-text p {
   line-height: 25px;
-  margin: 0% 8%;
+  margin: 0% 7%;
+  font-weight: 300;
+}
+.Humanizing .Bottom {
+  height: 340px;
+  background-color: #2d2640;
+  background-image: url(/images/bg-pattern-intro-right-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  line-height: 120px;
+  position: relative;
+}
+.Humanizing .Bottom .Button {
+  background-color: #2d2640;
+  color: #fafafa;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid #fafafa;
+  padding: 3% 6%;
+}
+.Humanizing .Bottom .Button:hover {
+  background-color: #fafafa;
+  color: #2d2640;
+  font-weight: bolder;
+}
+.Humanizing .Bottom #line {
+  padding-top: 17%;
+  position: absolute;
+  color: #2d2640;
+  border-bottom: 1px solid #fafafa;
+  margin-left: 33%;
+}
+
+.Different {
+  text-align: center;
+  margin: 0% 5%;
+  color: #837d87;
+}
+.Different h1 {
+  font-size: 280%;
+  margin-top: 0%;
+  padding-bottom: 7%;
+}
+.Different h2 {
+  font-size: 160%;
+  padding-top: 5%;
+}
+.Different h1, .Different h2 {
+  color: #2d2640;
+}
+.Different p {
+  line-height: 25px;
+  padding-bottom: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */

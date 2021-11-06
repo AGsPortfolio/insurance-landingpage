@@ -16,20 +16,89 @@ h1, h2, h3 {
 }
 
 .Humanizing {
+    display: grid;
+    grid-template-rows: 451px 340px;
     background-color: $primary-dark-violet;
     color: $neutral-very-light-gray;
-    display: grid;
-    grid-template-rows: 451px 451px;
-    // padding-bottom: 60%;
     text-align: center;
+    
+    #people {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Humanizing-text{
+        background-image: url(/images/bg-pattern-intro-left-mobile.svg);
+        background-repeat: no-repeat;
+        
+        h1 {
+            margin: 22% 8% 5%;
+            font-size: 250%;
+        }
+        
+        p {
+            line-height: 25px;
+            margin: 0% 7% ;
+            font-weight:300;
+        }
+    }
+    
+    .Bottom {
+        height: 340px;
+        background-color: $primary-dark-violet;
+        background-image: url(/images/bg-pattern-intro-right-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        line-height: 120px;
+        position: relative;
+        
+        .Button {
+            background-color: $primary-dark-violet;
+            color: $neutral-very-light-gray;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid $neutral-very-light-gray;
+            padding: 3% 6%;
+        }
+        
+        .Button:hover {
+            background-color: $neutral-very-light-gray;
+            color: $primary-dark-violet;
+            font-weight: bolder;
+        }
+        
+        #line {
+            padding-top: 17%;
+            position: absolute;
+            color: $primary-dark-violet;
+            border-bottom: 1px solid $neutral-very-light-gray;
+            margin-left: 33%;  
+        }
+    }   
+}
+
+.Different {
+    text-align: center;
+    margin: 0% 5%;
+    color: $neutral-dark-grayish-violet;
 
     h1 {
-        margin: 2% 8%;
-        font-size: 275%;
+        font-size: 280%;
+        margin-top: 0%;
+        padding-bottom: 7%;
+    }
+
+    h2 {
+        font-size: 160%;
+        padding-top: 5%;
+    }
+
+    h1, h2 {
+        color: $primary-dark-violet;
     }
 
     p {
         line-height: 25px;
-        margin: 0% 8%;
+        padding-bottom:10%;
     }
 }
