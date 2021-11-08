@@ -81,6 +81,7 @@ h1, h2, h3 {
     text-align: center;
     margin: 0% 5%;
     color: $neutral-dark-grayish-violet;
+    padding-bottom: 10%;
 
     h1 {
         font-size: 280%;
@@ -100,5 +101,70 @@ h1, h2, h3 {
     p {
         line-height: 25px;
         padding-bottom:10%;
+    }
+}
+
+.Find-out {
+    background-color: $primary-dark-violet;
+    text-align: center;
+    color: $neutral-very-light-gray;
+    margin: 0% 5% 20%;
+    padding: 0% 2% 16%;
+    line-height: 40px;
+    background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 160px -10px ;
+    height: 275px;
+
+    h1 {
+        font-size: 280%;
+        padding-top: 20%;
+    }
+
+    .Button {
+        background-color: $primary-dark-violet;
+        color: $neutral-very-light-gray;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: 1px solid $neutral-very-light-gray;
+        padding: 3% 6%;
+    }
+}
+
+.Footer-head {
+    text-align: center;
+    line-height: 55px;
+    padding-top: 20%;
+    margin-top: 40%;
+    background-color: hsl(0, 0%, 95%);
+    background-image: url(/images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    height: 150px;
+
+    .icons {
+        word-spacing: 10px;
+    }
+
+    #line {
+        line-height: 15px;
+        position: absolute;
+        color: transparent;
+        border-bottom: 1px solid $neutral-dark-grayish-violet;
+        opacity: 0.2;
+        margin-left: 5%;  
+    }
+}
+
+.Site-links {
+    text-align: center;
+    padding-top: 1%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    background-color: hsl(0, 0%, 95%);
+
+    p:first-child {
+        color: $neutral-dark-grayish-violet;
+        padding: 6% 0%;
     }
 }
