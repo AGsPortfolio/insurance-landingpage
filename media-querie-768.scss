@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .Nav-bar #navItem:not(:first-child) {
+      display: none;
+    }
+    
+    .Nav-bar #navItem.Icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+  .Nav-bar.responsive {
+    position: relative;
+  }
+
+  .Nav-bar.responsive .Icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .Nav-bar.responsive #navItem {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

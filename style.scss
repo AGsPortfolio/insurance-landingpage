@@ -1,9 +1,62 @@
+@use 'media-querie-320';
+@use 'media-querie-481';
+@use 'media-querie-768';
+@use 'media-querie-1200';
+
 // Colors
 $primary-dark-violet: hsl(256, 26%, 20%);
 $primary-grayish-blue: hsl(216, 30%, 68%);
 $neutral-very-dark-violet: hsl(270, 9%, 17%);
 $neutral-dark-grayish-violet: hsl(273, 4%, 51%);
 $neutral-very-light-gray: hsl(0, 0%, 98%);
+
+.Nav-bar {
+    background-color: $neutral-very-light-gray;
+    overflow: hidden;
+    text-transform: uppercase;
+
+    .Active {
+        padding: 6% 0% 6% 5%;
+    }
+  
+    #navItem {
+        background-color: $primary-dark-violet;
+        color: $neutral-very-light-gray;
+        text-decoration: none;
+        text-align: center;
+        padding: 10% 0% 2%;
+        line-height: 10px;
+        letter-spacing: 2px;
+    }
+
+    #navItem:nth-child(5) {
+        background-image: url(/images/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding-top: 7%;
+        padding-bottom: 50%;
+        height: 130px;
+    }
+
+    button {
+        background-color: $primary-dark-violet;
+        color: $neutral-very-light-gray;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 95%;
+        border: 1px solid $neutral-very-light-gray;
+        padding: 5% 15%;
+    }
+
+    #navItem:nth-child(6) {
+        background-color: $neutral-very-light-gray;
+        padding: 4% 4% 3%;
+    }
+}
+
+#navItem:nth-child(6) {
+    display: none;
+}
 
 body {
     margin: 0;
@@ -79,9 +132,9 @@ h1, h2, h3 {
 
 .Different {
     text-align: center;
-    margin: 0% 5%;
+    margin: 0% 7%;
     color: $neutral-dark-grayish-violet;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 
     h1 {
         font-size: 280%;
@@ -129,6 +182,12 @@ h1, h2, h3 {
         border: 1px solid $neutral-very-light-gray;
         padding: 3% 6%;
     }
+
+    .Button:hover {
+        background-color: $neutral-very-light-gray;
+        color: $primary-dark-violet;
+        font-weight: bolder;
+    }
 }
 
 .Footer-head {
@@ -141,7 +200,7 @@ h1, h2, h3 {
     background-repeat: no-repeat;
     height: 150px;
 
-    .icons {
+    .Icons {
         word-spacing: 10px;
     }
 
@@ -157,7 +216,7 @@ h1, h2, h3 {
 
 .Site-links {
     text-align: center;
-    padding-top: 1%;
+    padding: 1% 0%;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bolder;
@@ -167,4 +226,12 @@ h1, h2, h3 {
         color: $neutral-dark-grayish-violet;
         padding: 6% 0%;
     }
+}
+
+.Coded-by {
+    padding: 5% 5% 15% 0%;
+    font-size: xx-small;
+    text-align: center;
+    color: $neutral-dark-grayish-violet;
+    background-color: hsl(0, 0%, 95%);
 }
