@@ -35,7 +35,7 @@
     letter-spacing: 2px;
   }
   .Nav-bar #navItem:nth-child(5) {
-    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-mobile-nav.svg);
+    background-image: url(/images/bg-pattern-mobile-nav.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     padding-top: 7%;
@@ -67,7 +67,7 @@
     height: 100%;
   }
   .Humanizing .Humanizing-text {
-    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-mobile.svg);
+    background-image: url(/images/bg-pattern-intro-left-mobile.svg);
   }
   .Humanizing .Humanizing-text h1 {
     margin: 22% 8% 5%;
@@ -77,7 +77,7 @@
     margin: 0% 7%;
   }
   .Humanizing .Bottom {
-    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-mobile.svg);
+    background-image: url(/images/bg-pattern-intro-right-mobile.svg);
     background-position: right;
     line-height: 120px;
   }
@@ -96,7 +96,7 @@
 
   .Find-out {
     text-align: center;
-    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-mobile.svg);
+    background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
     background-position: 160px -10px;
     height: 275px;
     margin: 0% 5% 20%;
@@ -115,7 +115,7 @@
   }
 
   .Footer-head {
-    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-mobile.svg);
+    background-image: url(/images/bg-pattern-footer-mobile.svg);
     padding-top: 20%;
     margin-top: 40%;
     height: 150px;
