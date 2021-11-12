@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .Nav-bar #navItem:not(:first-child) {
     display: none;
   }
@@ -7,8 +7,7 @@
     float: right;
     display: block;
   }
-}
-@media screen and (max-width: 768px) {
+
   .Nav-bar.responsive {
     position: relative;
   }
@@ -24,44 +23,888 @@
     display: block;
     text-align: center;
   }
+
+  .Nav-bar .Active {
+    padding: 6% 0% 6% 5%;
+  }
+  .Nav-bar #navItem {
+    color: #fafafa;
+    background-color: #2d2640;
+    padding: 10% 0% 2%;
+    line-height: 10px;
+    letter-spacing: 2px;
+  }
+  .Nav-bar #navItem:nth-child(5) {
+    background-image: url(/images/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 7%;
+    padding-bottom: 50%;
+    height: 130px;
+  }
+  .Nav-bar button {
+    background-color: #2d2640;
+    color: #fafafa;
+    letter-spacing: 2px;
+    font-size: 95%;
+    border: 1px solid #fafafa;
+    padding: 5% 15%;
+  }
+  .Nav-bar #navItem:nth-child(6) {
+    background-color: #fafafa;
+    padding: 4% 4% 3%;
+  }
+
+  .Humanizing {
+    grid-template-rows: 451px 340px;
+    text-align: center;
+  }
+  .Humanizing #topLine {
+    display: none;
+  }
+  .Humanizing #people {
+    width: 100%;
+    height: 100%;
+  }
+  .Humanizing .Humanizing-text {
+    background-image: url(/images/bg-pattern-intro-left-mobile.svg);
+  }
+  .Humanizing .Humanizing-text h1 {
+    margin: 22% 8% 5%;
+  }
+  .Humanizing .Humanizing-text p {
+    line-height: 25px;
+    margin: 0% 7%;
+  }
+  .Humanizing .Bottom {
+    background-image: url(/images/bg-pattern-intro-right-mobile.svg);
+    background-position: right;
+    line-height: 120px;
+  }
+  .Humanizing .Button {
+    padding: 3% 6%;
+    letter-spacing: 2px;
+  }
+  .Humanizing #line {
+    padding-top: 17%;
+  }
+
+  .Different {
+    text-align: center;
+    padding-bottom: 15%;
+  }
+
+  .Find-out {
+    text-align: center;
+    background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
+    background-position: 160px -10px;
+    height: 275px;
+    margin: 0% 5% 20%;
+    padding: 0% 2% 16%;
+  }
+  .Find-out h1 {
+    font-size: 280%;
+    padding-top: 20%;
+  }
+  .Find-out p {
+    padding-bottom: 10%;
+  }
+  .Find-out .Button {
+    letter-spacing: 2px;
+    padding: 3% 6%;
+  }
+
+  .Footer-head {
+    background-image: url(/images/bg-pattern-footer-mobile.svg);
+    padding-top: 20%;
+    margin-top: 40%;
+    height: 150px;
+  }
+  .Footer-head #line {
+    line-height: 15px;
+    position: absolute;
+    color: transparent;
+    border-bottom: 1px solid #837d87;
+    opacity: 0.2;
+    margin-left: 5%;
+  }
+
+  .Site-links {
+    text-align: center;
+    padding: 1% 0%;
+  }
+
+  .Coded-by {
+    padding: 5% 5% 15% 0%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .Nav-bar {
+    padding: 2% 0% 1% 7%;
+  }
+  .Nav-bar .active {
+    padding-right: 180px;
+  }
+  .Nav-bar #navItem {
+    color: #837d87;
+    padding: 0.5% 1%;
+  }
+  .Nav-bar #navItem:nth-child(5) {
+    padding-top: 0.25%;
+    padding-right: 2%;
+  }
+  .Nav-bar #navItem:hover {
+    color: #2b272f;
+  }
+  .Nav-bar .White-button {
+    background-color: #fafafa;
+    color: #2d2640;
+    border: 1px solid #2d2640;
+    font-size: 90%;
+    margin: 0;
+  }
+  .Nav-bar .White-button:hover {
+    background-color: #2d2640;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+
+  .Humanizing {
+    grid-template-columns: 440px 300px;
+    align-items: center;
+    padding: 5% 0% 0% 0%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 400px -250px;
+  }
+  .Humanizing #topLine {
+    opacity: 0.5;
+    margin: 0%;
+  }
+  .Humanizing .People-img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-left: 6%;
+    margin-bottom: 100%;
+    height: 175px;
+  }
+  .Humanizing .People-img #people {
+    max-width: 95%;
+  }
+  .Humanizing .Humanizing-text {
+    padding-left: 12%;
+    font-size: 90%;
+    padding-right: 2%;
+  }
+  .Humanizing .Humanizing-text h1 {
+    line-height: 35px;
+  }
+  .Humanizing .Humanizing-text p {
+    line-height: 20px !important;
+  }
+  .Humanizing .Bottom {
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -90px 0px;
+    padding: 0% 0% 0% 11%;
+    height: 230px !important;
+  }
+  .Humanizing .Bottom .Button {
+    padding: 2% 2%;
+    letter-spacing: 1px;
+  }
+  .Humanizing .Bottom #line {
+    margin-left: 0%;
+    padding-top: 40%;
+    opacity: 0.5;
+  }
+
+  .Different {
+    padding: 0% 40% 8% 0%;
+    font-size: 90%;
+  }
+  .Different .Key-features {
+    display: grid;
+    grid-template-columns: 205px 205px 205px;
+    grid-gap: 5%;
+  }
+  .Different .Key-features p {
+    line-height: 20px;
+  }
+
+  .Find-out {
+    display: grid;
+    grid-template-columns: 380px auto;
+    margin: 0% 6%;
+  }
+  .Find-out h1 {
+    margin-left: 10%;
+    font-size: 230%;
+  }
+  .Find-out .Find-out-button {
+    padding-top: 18%;
+    padding-left: 40%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -60px -110px;
+  }
+  .Find-out .Find-out-button .Button {
+    padding: 2% 2%;
+    letter-spacing: 1px;
+  }
+
+  .Footer-head {
+    margin-top: 10%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .Footer-head .Logo {
+    text-align: left;
+    padding-left: 16%;
+  }
+  .Footer-head .Icons {
+    text-align: right;
+    margin-right: 15%;
+  }
+  .Footer-head #bottomLine {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #95a9c6;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 13%;
+  }
+
+  .Site-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0% 10% 0% 7%;
+    font-size: 90%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .Coded-by {
+    padding: 2% 0% 5%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  .Nav-bar {
+    padding: 2% 0% 1% 8%;
+  }
+  .Nav-bar .active {
+    padding-right: 200px;
+  }
+  .Nav-bar #navItem {
+    color: #837d87;
+    padding: 0.5% 1%;
+  }
+  .Nav-bar #navItem:nth-child(5) {
+    padding-top: 0.25%;
+    padding-right: 2%;
+  }
+  .Nav-bar #navItem:hover {
+    color: #2b272f;
+  }
+  .Nav-bar .White-button {
+    background-color: #fafafa;
+    color: #2d2640;
+    border: 1px solid #2d2640;
+    font-size: 90%;
+    margin: 0;
+  }
+  .Nav-bar .White-button:hover {
+    background-color: #2d2640;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+
+  .Humanizing {
+    grid-template-columns: 440px 325px;
+    align-items: center;
+    padding: 5% 0% 0% 0%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 470px -100px;
+  }
+  .Humanizing #topLine {
+    opacity: 0.5;
+    margin: 0%;
+  }
+  .Humanizing .People-img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-left: 6%;
+    margin-bottom: 93%;
+    height: 250px;
+  }
+  .Humanizing .People-img #people {
+    max-width: 95%;
+  }
+  .Humanizing .Humanizing-text {
+    padding-left: 17%;
+    font-size: 90%;
+    padding-right: 2%;
+  }
+  .Humanizing .Humanizing-text h1 {
+    line-height: 35px;
+  }
+  .Humanizing .Humanizing-text p {
+    line-height: 20px !important;
+  }
+  .Humanizing .Bottom {
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -90px 0px;
+    padding: 2% 0% 0% 16%;
+  }
+  .Humanizing .Bottom .Button {
+    padding: 2% 2%;
+    letter-spacing: 1px;
+  }
+  .Humanizing .Bottom #line {
+    margin-left: 0%;
+    padding-top: 70%;
+    opacity: 0.5;
+  }
+
+  .Different {
+    padding: 0% 40% 8% 3%;
+    font-size: 90%;
+  }
+  .Different .Key-features {
+    display: grid;
+    grid-template-columns: 210px 210px 210px;
+    grid-gap: 5%;
+  }
+  .Different .Key-features p {
+    line-height: 20px;
+  }
+
+  .Find-out {
+    display: grid;
+    grid-template-columns: 380px auto;
+    margin: 0% 8%;
+  }
+  .Find-out h1 {
+    margin-left: 10%;
+    font-size: 230%;
+  }
+  .Find-out .Find-out-button {
+    padding-top: 18%;
+    padding-left: 40%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -60px -110px;
+  }
+  .Find-out .Find-out-button .Button {
+    padding: 2% 2%;
+    letter-spacing: 1px;
+  }
+
+  .Footer-head {
+    margin-top: 10%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .Footer-head .Logo {
+    text-align: left;
+    padding-left: 14%;
+  }
+  .Footer-head .Icons {
+    text-align: right;
+    margin-right: 22%;
+  }
+  .Footer-head #bottomLine {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #95a9c6;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 13%;
+  }
+
+  .Site-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0% 10% 0% 7%;
+    font-size: 90%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .Coded-by {
+    padding: 2% 0% 5%;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1024px) {
+  .Nav-bar {
+    padding: 2% 0% 1% 8%;
+  }
+  .Nav-bar .active {
+    padding-right: 400px;
+  }
+  .Nav-bar #navItem {
+    color: #837d87;
+    padding: 0.5% 1%;
+  }
+  .Nav-bar #navItem:nth-child(5) {
+    padding-top: 0.25%;
+    padding-right: 2%;
+  }
+  .Nav-bar #navItem:hover {
+    color: #2b272f;
+  }
+  .Nav-bar .White-button {
+    background-color: #fafafa;
+    color: #2d2640;
+    border: 1px solid #2d2640;
+    font-size: 90%;
+    margin: 0;
+  }
+  .Nav-bar .White-button:hover {
+    background-color: #2d2640;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+
+  .Humanizing {
+    grid-template-columns: 550px 400px;
+    align-items: center;
+    padding: 8% 0% 0% 0%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 600px -50px;
+  }
+  .Humanizing #topLine {
+    opacity: 0.5;
+    margin: 0%;
+  }
+  .Humanizing .People-img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-left: 6%;
+    margin-bottom: 75%;
+    height: 250px;
+  }
+  .Humanizing .Humanizing-text {
+    padding-left: 17%;
+    font-size: 90%;
+    padding-right: 2%;
+  }
+  .Humanizing .Humanizing-text h1 {
+    line-height: 35px;
+  }
+  .Humanizing .Humanizing-text p {
+    line-height: 20px !important;
+  }
+  .Humanizing .Bottom {
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -50px 0px;
+    padding: 2% 0% 0% 16%;
+  }
+  .Humanizing .Bottom .Button {
+    padding: 3% 3%;
+    letter-spacing: 1px;
+  }
+  .Humanizing .Bottom #line {
+    margin-left: 0%;
+    padding-top: 50%;
+    opacity: 0.5;
+  }
+
+  .Different {
+    padding: 0% 40% 8% 2%;
+    font-size: 90%;
+  }
+  .Different .Key-features {
+    display: grid;
+    grid-template-columns: 255px 255px 255px;
+    grid-gap: 8%;
+  }
+  .Different .Key-features p {
+    line-height: 20px;
+  }
+
+  .Find-out {
+    display: grid;
+    grid-template-columns: 420px auto;
+    margin: 0% 8%;
+  }
+  .Find-out h1 {
+    margin-left: 15%;
+    font-size: 230%;
+  }
+  .Find-out .Find-out-button {
+    padding-top: 12%;
+    padding-left: 60%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 10px -110px;
+  }
+  .Find-out .Find-out-button .Button {
+    padding: 3% 3%;
+    letter-spacing: 1px;
+  }
+
+  .Footer-head {
+    margin-top: 10%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .Footer-head .Logo {
+    text-align: left;
+    padding-left: 18%;
+  }
+  .Footer-head .Icons {
+    text-align: right;
+    margin-right: 15%;
+  }
+  .Footer-head #bottomLine {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #95a9c6;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 16%;
+    width: 175%;
+  }
+
+  .Site-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0% 10% 0% 8%;
+    font-size: 90%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .Coded-by {
+    padding: 2% 0% 5%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+  .Nav-bar {
+    padding: 2% 0% 1% 8%;
+  }
+  .Nav-bar .active {
+    padding-right: 475px;
+  }
+  .Nav-bar #navItem {
+    color: #837d87;
+    padding: 0.5% 1%;
+  }
+  .Nav-bar #navItem:nth-child(5) {
+    padding-top: 0.25%;
+    padding-right: 2%;
+  }
+  .Nav-bar #navItem:hover {
+    color: #2b272f;
+  }
+  .Nav-bar .White-button {
+    background-color: #fafafa;
+    color: #2d2640;
+    border: 1px solid #2d2640;
+    font-size: 90%;
+    margin: 0;
+  }
+  .Nav-bar .White-button:hover {
+    background-color: #2d2640;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+
+  .Humanizing {
+    grid-template-columns: 550px 450px;
+    align-items: center;
+    padding: 8% 0% 0% 0%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 800px -50px;
+  }
+  .Humanizing #topLine {
+    opacity: 0.5;
+    margin: 0%;
+  }
+  .Humanizing .People-img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-left: 25%;
+    margin-bottom: 75%;
+    height: 250px;
+  }
+  .Humanizing .Humanizing-text {
+    padding-left: 17%;
+    font-size: 90%;
+    padding-right: 2%;
+  }
+  .Humanizing .Humanizing-text h1 {
+    line-height: 35px;
+  }
+  .Humanizing .Humanizing-text p {
+    line-height: 20px !important;
+  }
+  .Humanizing .Bottom {
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -40px 20px;
+    padding: 2% 0% 0% 16%;
+  }
+  .Humanizing .Bottom .Button {
+    padding: 3% 4%;
+    letter-spacing: 1px;
+  }
+  .Humanizing .Bottom #line {
+    margin-left: 0%;
+    padding-top: 50%;
+    opacity: 0.5;
+  }
+
+  .Different {
+    padding: 0% 40% 8% 2%;
+    font-size: 100%;
+  }
+  .Different .Key-features {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-gap: 8%;
+  }
+  .Different .Key-features p {
+    line-height: 20px;
+  }
+
+  .Find-out {
+    display: grid;
+    grid-template-columns: 420px auto;
+    margin: 0% 8%;
+  }
+  .Find-out h1 {
+    margin-left: 15%;
+    font-size: 230%;
+  }
+  .Find-out .Find-out-button {
+    padding-top: 10%;
+    padding-left: 60%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 100px -70px;
+  }
+  .Find-out .Find-out-button .Button {
+    padding: 4% 6%;
+    letter-spacing: 1px;
+  }
+
+  .Footer-head {
+    margin-top: 10%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .Footer-head .Logo {
+    text-align: left;
+    padding-left: 18%;
+  }
+  .Footer-head .Icons {
+    text-align: right;
+    margin-right: 17%;
+  }
+  .Footer-head #bottomLine {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #95a9c6;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 16%;
+    width: 172%;
+  }
+
+  .Site-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0% 10% 0% 8%;
+    font-size: 90%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .Coded-by {
+    padding: 2% 0% 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Nav-bar {
+    padding: 2% 0% 1% 9%;
+  }
+  .Nav-bar .active {
+    padding-right: 575px;
+  }
+  .Nav-bar #navItem {
+    color: #837d87;
+    padding: 0.5% 1%;
+  }
+  .Nav-bar #navItem:nth-child(5) {
+    padding-top: 0.25%;
+    padding-right: 2%;
+  }
+  .Nav-bar #navItem:hover {
+    color: #2b272f;
+  }
+  .Nav-bar .White-button {
+    background-color: #fafafa;
+    color: #2d2640;
+    border: 1px solid #2d2640;
+    font-size: 90%;
+    margin: 0;
+  }
+  .Nav-bar .White-button:hover {
+    background-color: #2d2640;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+
+  .Humanizing {
+    grid-template-columns: 600px 550px;
+    align-items: center;
+    padding: 8% 0% 0% 0%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 950px -50px;
+  }
+  .Humanizing #topLine {
+    opacity: 0.5;
+    margin: 0%;
+  }
+  .Humanizing .People-img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding-left: 25%;
+    margin-bottom: 55%;
+    height: 250px;
+  }
+  .Humanizing #people {
+    max-width: 200%;
+  }
+  .Humanizing .Humanizing-text {
+    padding-left: 20%;
+    font-size: 120%;
+    padding-right: 2%;
+  }
+  .Humanizing .Humanizing-text h1 {
+    line-height: 70px;
+    font-size: 330% !important;
+  }
+  .Humanizing .Humanizing-text p {
+    line-height: 30px !important;
+  }
+  .Humanizing .Bottom {
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -70px -30px;
+    padding: 2% 0% 0% 19%;
+  }
+  .Humanizing .Bottom .Button {
+    padding: 3% 4%;
+    letter-spacing: 1px;
+    font-size: 100%;
+  }
+  .Humanizing .Bottom #line {
+    margin-left: 0%;
+    padding-top: 50%;
+    opacity: 0.5;
+  }
+
+  .Different {
+    padding: 0% 40% 8% 5%;
+    font-size: 130%;
+  }
+  .Different .Key-features {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 7%;
+  }
+  .Different .Key-features p {
+    line-height: 25px;
+  }
+
+  .Find-out {
+    display: grid;
+    grid-template-columns: 530px auto;
+    margin: 0% 11%;
+  }
+  .Find-out h1 {
+    margin-left: 15%;
+    font-size: 300%;
+    line-height: 50px;
+  }
+  .Find-out .Find-out-button {
+    padding-top: 15%;
+    padding-left: 50%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 100px -70px;
+  }
+  .Find-out .Find-out-button .Button {
+    padding: 5% 7%;
+    letter-spacing: 1px;
+  }
+
+  .Footer-head {
+    margin-top: 10%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .Footer-head .Logo {
+    text-align: left;
+    padding-left: 23%;
+  }
+  .Footer-head .Icons {
+    text-align: right;
+    margin-right: 22%;
+  }
+  .Footer-head #bottomLine {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #95a9c6;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 22%;
+    width: 160%;
+  }
+
+  .Site-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0% 10% 0% 11%;
+    font-size: 90%;
+    background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .Coded-by {
+    padding: 2% 0% 5%;
+  }
 }
 .Nav-bar {
   background-color: #fafafa;
   overflow: hidden;
   text-transform: uppercase;
 }
-.Nav-bar .Active {
-  padding: 6% 0% 6% 5%;
-}
 .Nav-bar #navItem {
-  background-color: #2d2640;
-  color: #fafafa;
   text-decoration: none;
   text-align: center;
-  padding: 10% 0% 2%;
-  line-height: 10px;
-  letter-spacing: 2px;
-}
-.Nav-bar #navItem:nth-child(5) {
-  background-image: url(/images/bg-pattern-mobile-nav.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  padding-top: 7%;
-  padding-bottom: 50%;
-  height: 130px;
 }
 .Nav-bar button {
-  background-color: #2d2640;
-  color: #fafafa;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 95%;
-  border: 1px solid #fafafa;
-  padding: 5% 15%;
-}
-.Nav-bar #navItem:nth-child(6) {
-  background-color: #fafafa;
-  padding: 4% 4% 3%;
 }
 
 #navItem:nth-child(6) {
@@ -80,44 +923,31 @@ h1, h2, h3 {
 
 .Humanizing {
   display: grid;
-  grid-template-rows: 451px 340px;
   background-color: #2d2640;
   color: #fafafa;
-  text-align: center;
 }
-.Humanizing #people {
-  width: 100%;
-  height: 100%;
+.Humanizing #topLine {
+  color: #fafafa;
 }
 .Humanizing .Humanizing-text {
-  background-image: url(/images/bg-pattern-intro-left-mobile.svg);
   background-repeat: no-repeat;
 }
 .Humanizing .Humanizing-text h1 {
-  margin: 22% 8% 5%;
   font-size: 250%;
 }
 .Humanizing .Humanizing-text p {
-  line-height: 25px;
-  margin: 0% 7%;
   font-weight: 300;
 }
 .Humanizing .Bottom {
   height: 340px;
   background-color: #2d2640;
-  background-image: url(/images/bg-pattern-intro-right-mobile.svg);
   background-repeat: no-repeat;
-  background-position: right;
-  line-height: 120px;
-  position: relative;
 }
 .Humanizing .Bottom .Button {
   background-color: #2d2640;
   color: #fafafa;
   text-transform: uppercase;
-  letter-spacing: 2px;
   border: 1px solid #fafafa;
-  padding: 3% 6%;
 }
 .Humanizing .Bottom .Button:hover {
   background-color: #fafafa;
@@ -125,18 +955,15 @@ h1, h2, h3 {
   font-weight: bolder;
 }
 .Humanizing .Bottom #line {
-  padding-top: 17%;
-  position: absolute;
-  color: #2d2640;
-  border-bottom: 1px solid #fafafa;
-  margin-left: 33%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.5px solid #fafafa;
 }
 
 .Different {
-  text-align: center;
   margin: 0% 7%;
   color: #837d87;
-  padding-bottom: 15%;
 }
 .Different h1 {
   font-size: 280%;
@@ -152,32 +979,19 @@ h1, h2, h3 {
 }
 .Different p {
   line-height: 25px;
-  padding-bottom: 10%;
 }
 
 .Find-out {
   background-color: #2d2640;
-  text-align: center;
   color: #fafafa;
-  margin: 0% 5% 20%;
-  padding: 0% 2% 16%;
   line-height: 40px;
-  background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
   background-repeat: no-repeat;
-  background-position: 160px -10px;
-  height: 275px;
-}
-.Find-out h1 {
-  font-size: 280%;
-  padding-top: 20%;
 }
 .Find-out .Button {
   background-color: #2d2640;
   color: #fafafa;
   text-transform: uppercase;
-  letter-spacing: 2px;
   border: 1px solid #fafafa;
-  padding: 3% 6%;
 }
 .Find-out .Button:hover {
   background-color: #fafafa;
@@ -188,28 +1002,14 @@ h1, h2, h3 {
 .Footer-head {
   text-align: center;
   line-height: 55px;
-  padding-top: 20%;
-  margin-top: 40%;
   background-color: #f2f2f2;
-  background-image: url(/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
-  height: 150px;
 }
 .Footer-head .Icons {
   word-spacing: 10px;
 }
-.Footer-head #line {
-  line-height: 15px;
-  position: absolute;
-  color: transparent;
-  border-bottom: 1px solid #837d87;
-  opacity: 0.2;
-  margin-left: 5%;
-}
 
 .Site-links {
-  text-align: center;
-  padding: 1% 0%;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bolder;
@@ -221,7 +1021,6 @@ h1, h2, h3 {
 }
 
 .Coded-by {
-  padding: 5% 5% 15% 0%;
   font-size: xx-small;
   text-align: center;
   color: #837d87;

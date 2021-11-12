@@ -1,5 +1,6 @@
 @media screen 
-and (min-width: 1200px) {
+and (min-width: 951px)
+and (max-width: 1024px) {
 
     // Colors
     $primary-dark-violet: hsl(256, 26%, 20%);
@@ -9,10 +10,10 @@ and (min-width: 1200px) {
     $neutral-very-light-gray: hsl(0, 0%, 98%);
 
   .Nav-bar {
-    padding: 2% 0% 1% 9%;
+    padding: 2% 0% 1% 8%;
 
     .active {
-      padding-right: 575px;
+      padding-right: 400px;
     }
     #navItem {
       color: $neutral-dark-grayish-violet;
@@ -40,59 +41,54 @@ and (min-width: 1200px) {
       background-color: $primary-dark-violet;
       color: $neutral-very-light-gray;
       border: 1px solid $neutral-very-light-gray;
+
     }
   }
 
   .Humanizing {
-    grid-template-columns: 600px 550px;
+    grid-template-columns: 550px 400px;
     align-items: center;
     padding: 8% 0% 0% 0%;
     background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-right-desktop.svg);
     background-repeat: no-repeat;
-    background-position: 950px -50px;
-    
+    background-position: 600px -50px;
+
     #topLine {
-        opacity: 0.5;
-        margin: 0%;
+      opacity: 0.5;
+      margin: 0%;
     }
-    
+
     .People-img {
-        grid-column: 2/3;
-        grid-row: 1/3;
-        padding-left: 25%;
-        margin-bottom: 55%;
-        height: 250px;
+      grid-column: 2/3;
+      grid-row: 1/3;
+      padding-left: 6%;
+      margin-bottom: 75%;
+      height: 250px;
     }
-    
-    #people {
-        max-width: 200%;
-    }
-    
+
     .Humanizing-text {
-        padding-left: 20%;
-        font-size: 120%;
-        padding-right: 2%;
+      padding-left: 17%;
+      font-size: 90%;
+      padding-right: 2%;
 
       h1 {
-        line-height: 70px; 
-        font-size: 330% !important;       
+        line-height: 35px;        
       }
 
       p {
-        line-height: 30px !important;
+        line-height: 20px !important;
       }
     }
 
     .Bottom {
       background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-intro-left-desktop.svg);
       background-repeat: no-repeat;
-      background-position: -70px -30px;
-      padding: 2% 0% 0% 19%;
+      background-position: -50px 0px;
+      padding: 2% 0% 0% 16%;
       
       .Button {
-        padding: 3% 4%;
+        padding: 3% 3%;
         letter-spacing: 1px;
-        font-size: 100%;
       }
       
       #line {
@@ -104,40 +100,39 @@ and (min-width: 1200px) {
   }
 
   .Different {
-    padding:0% 40% 8% 5% ;
-    font-size: 130%;
+    padding:0% 40% 8% 2% ;
+    font-size: 90%;
 
     .Key-features {
       display: grid;
-      grid-template-columns: 300px 300px 300px;
-      grid-gap: 7%;
+      grid-template-columns: 255px 255px 255px;
+      grid-gap: 8%;
 
       p {
-        line-height: 25px;
+        line-height: 20px;
       }
     }
   }
 
   .Find-out {
     display: grid;
-    grid-template-columns: 530px auto;
-    margin: 0% 11%;
+    grid-template-columns: 420px auto;
+    margin: 0% 8%;
 
     h1 {
       margin-left: 15%;
-      font-size: 300%;
-      line-height: 50px;
+      font-size: 230%;
     }
 
     .Find-out-button {
-      padding-top: 15%;
-      padding-left: 50%;
+      padding-top: 12%;
+      padding-left: 60%;
       background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-how-we-work-desktop.svg);
       background-repeat: no-repeat;
-      background-position: 100px -70px;
+      background-position: 10px -110px;
       
       .Button {
-        padding: 5% 7%;
+        padding: 3% 3%;
         letter-spacing: 1px;
       }
     }
@@ -151,12 +146,12 @@ and (min-width: 1200px) {
 
     .Logo {
       text-align: left;
-      padding-left: 23%;
+      padding-left: 18%;
     }
 
     .Icons {
       text-align: right;
-      margin-right: 22%;
+      margin-right: 15%;
     }
 
     #bottomLine {
@@ -166,8 +161,8 @@ and (min-width: 1200px) {
       border-bottom: 1px solid $primary-grayish-blue;
       opacity: 0.5;
       text-align: center;
-      margin-left: 22%;
-      width: 160%;
+      margin-left: 16%;
+      width: 175%;
       
     }
   }
@@ -175,7 +170,7 @@ and (min-width: 1200px) {
   .Site-links {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 0% 10% 0% 11%;
+    padding: 0% 10% 0% 8%;
     font-size: 90%;
     background-image: url(https://raw.githubusercontent.com/AGsPortfolio/insurance-landingpage/main/images/bg-pattern-footer-desktop.svg);
     background-repeat: no-repeat;
